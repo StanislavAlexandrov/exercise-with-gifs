@@ -1,0 +1,38 @@
+#game-container {
+    display: flex;
+    justify-content: center;
+
+    /* background-color: #1111; */
+}
+
+#game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1020px; /* width of container */
+    margin: 0 auto; /* center the game container */
+}
+
+.box {
+    width: 340px;
+    height: 200px; /* Adjust to accommodate the height of the text */
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.box p {
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
